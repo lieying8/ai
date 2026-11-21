@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chat-archive",
+  "version": "1.4.1",
+  "description": "按主题整理中文聊天，生成 TXT 树、检索关键词和接续提示，并按需给出归档或删除建议。",
+  "author": {
+    "name": "lieying8"
+  },
+  "repository": "https://github.com/lieying8/codex",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "聊天页整理助手",
+        "shortDescription": "整理聊天、提取关键词、生成接续提示",
+        "longDescription": "基于聊天页整理助手 v1.4。支持精简整理、详细整理、接续提示，以及按需给出的归档和删除建议。整理当前可读取或用户提供的对话，区分版本和验证状态，标明资料缺口并隐藏凭据。改标题、导出文件、归档和删除等操作需用户另行明确提出。",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": [
+          "整理本页",
+          "详细整理本页",
+          "接续本页"
+        ]
+      }
+    }
+  }
+}

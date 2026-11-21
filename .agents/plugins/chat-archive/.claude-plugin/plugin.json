@@ -1,0 +1,9 @@
+{
+  "name": "chat-archive",
+  "version": "1.4.1",
+  "description": "按主题整理中文聊天，生成 TXT 树、检索关键词和接续提示，并按需给出归档或删除建议。",
+  "author": {
+    "name": "lieying8"
+  },
+  "repository": "https://github.com/lieying8/codex"
+}

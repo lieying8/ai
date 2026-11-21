@@ -1,0 +1,18 @@
+{
+  "name": "lieying8-codex",
+  "owner": {
+    "name": "lieying8"
+  },
+  "plugins": [
+    {
+      "name": "chat-archive",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lieying8/codex.git",
+        "path": ".agents/plugins/chat-archive",
+        "ref": "main"
+      },
+      "description": "按主题整理中文聊天，生成 TXT 树、检索关键词和接续提示，并按需给出归档或删除建议。"
+    }
+  ]
+}
