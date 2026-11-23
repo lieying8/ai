@@ -18,17 +18,26 @@
 
 ```text
 .agents/
-├── README.md
+├── README.md                              插件列表、安装说明和本结构图
 ├── plugins/
-│   ├── marketplace.json
-│   ├── chat-archive/              聊天整理插件
-│   └── github-project-upload/
-│       ├── plugin.json
-│       ├── .claude-plugin/plugin.json
-│       └── skills/github-project-upload/
-│           ├── SKILL.md
-│           └── GUIDE.md
-└── .claude-plugin/marketplace.json
+│   ├── marketplace.json                   Codex 插件市场清单
+│   ├── chat-archive/                      聊天页整理助手
+│   │   ├── plugin.json                    通用插件信息和版本
+│   │   ├── .claude-plugin/
+│   │   │   └── plugin.json                Claude 兼容插件信息
+│   │   └── skills/
+│   │       └── chat-archive/
+│   │           └── SKILL.md               聊天整理执行规则
+│   └── github-project-upload/             GitHub 项目上传助手
+│       ├── plugin.json                    通用插件信息和版本
+│       ├── .claude-plugin/
+│       │   └── plugin.json                Claude 兼容插件信息
+│       └── skills/
+│           └── github-project-upload/
+│               ├── SKILL.md               上传规则和审核模板
+│               └── GUIDE.md               使用说明和 Skill 结构图
+└── .claude-plugin/
+    └── marketplace.json                   Claude 插件市场清单
 ```
 
 ## Claude Code
