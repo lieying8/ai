@@ -13,6 +13,16 @@
         "ref": "main"
       },
       "description": "按主题整理中文聊天，生成 TXT 树、检索关键词和接续提示，并按需给出归档或删除建议。"
+    },
+    {
+      "name": "github-project-upload",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lieying8/ai.git",
+        "path": ".agents/plugins/github-project-upload",
+        "ref": "main"
+      },
+      "description": "按树状审核模板准备、检查和上传 GitHub 项目，集中维护项目说明与图。"
     }
   ]
 }

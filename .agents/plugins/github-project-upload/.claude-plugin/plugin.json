@@ -1,0 +1,9 @@
+{
+  "name": "github-project-upload",
+  "version": "1.0.0",
+  "description": "按树状审核模板准备、检查和上传 GitHub 项目，集中维护项目说明与图。",
+  "author": {
+    "name": "lieying8"
+  },
+  "repository": "https://github.com/lieying8/ai"
+}

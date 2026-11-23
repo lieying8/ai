@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "github-project-upload",
+  "version": "1.0.0",
+  "description": "按树状审核模板准备、检查和上传 GitHub 项目，集中维护项目说明与图。",
+  "author": {
+    "name": "lieying8"
+  },
+  "repository": "https://github.com/lieying8/ai",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GitHub 项目上传助手",
+        "shortDescription": "审核、精简并上传 GitHub 项目",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "准备上传到 GitHub，先发审核单",
+          "按约定更新已有 GitHub 项目"
+        ]
+      }
+    }
+  }
+}
